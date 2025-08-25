@@ -27,12 +27,12 @@ void bubbleSort(int arr[], int n) {
 int main() {
     int n;
 
-    cout << "How many elements? ";
+    cout << "How many elements there?:  ";
     cin >> n;
 
     int* arr = new int[n];
 
-    cout << "Enter elements:\n";
+    cout << "Enter elements: ";
     for (int i = 0; i < n; i++) {
         cin >> arr[i];
     }
