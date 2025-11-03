@@ -37,6 +37,4 @@ for(i=1;i<n;i++)
         last_selected=i;
 
     }
-}
-
-}
+}}

@@ -11,7 +11,7 @@ int main(){
     int product[n], value[n], weight[n];
     int v_per_w[n];
     for(int i=0; i<n; i++){
-        cout <<"Enter Product " << i+1 <<" Value & Weight (in one line): " << endl;
+        cout <<"Enter Product " << i+1 <<" Value & Weight: " << endl;
         cin >> value[i] >> weight[i];
         v_per_w[i] = value[i] / weight[i];
     }
