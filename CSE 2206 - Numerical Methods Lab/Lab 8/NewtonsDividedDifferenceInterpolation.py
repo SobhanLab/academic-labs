@@ -43,8 +43,8 @@ def newton_divided_difference(x, y, val):
 
 
 # Example usage
-x = [2, 2.3, 2.6, 2.9, 3.2]
-y = [0.85467, 0.75682, 0.43126, 0.22364, 0.08567]
-val = 2.8
+x = [2.04, 2.28, 2.63, 2.94, 3.18]
+y = [0.87291, 0.73942, 0.45837, 0.20153, 0.09712]
+val = 2.77
 
 newton_divided_difference(x, y, val)
