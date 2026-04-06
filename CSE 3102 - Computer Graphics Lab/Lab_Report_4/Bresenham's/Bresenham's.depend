@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1772084895 source:c:\users\sobha\downloads\compressed\lab_report_3\dda_algorithm\main.cpp
+1772796020 source:c:\users\sobha\downloads\compressed\lab_report_3\bresenham's\main.cpp
 	<GL/glut.h>
 	<stdlib.h>
 	<bits/stdc++.h>
@@ -874,7 +874,7 @@
 1526093414 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\gl\glu.h
 	<GL/gl.h>
 
-1772084895 source:e:\@codes\academic_labs\cse 3102 - computer graphics lab\lab_report_3\dda_algorithm\main.cpp
+1772796020 source:e:\@codes\academic_labs\cse 3102 - computer graphics lab\lab_report_4\bresenham's\main.cpp
 	<GL/glut.h>
 	<stdlib.h>
 	<bits/stdc++.h>
