@@ -1,0 +1,50 @@
+create database LAB3 ;
+use LAB3
+
+
+  CREATE TABLE WORKER
+(
+    WORKER_ID INT NOT NULL,
+    FIRST_NAME VARCHAR(30) UNIQUE,
+    LAST_NAME VARCHAR(15),
+
+    SALARY INT CHECK (SALARY > 100),
+    DEPT_NAME VARCHAR(15),
+    JOINING_DATE DATETIME,
+
+    CONSTRAINT PK_WORKER PRIMARY KEY (WORKER_ID)
+);
+INSERT INTO WORKER(WORKER_ID, FIRST_NAME, LAST_NAME, SALARY, DEPT_NAME, JOINING_DATE)
+VALUES
+(1, 'Shahed', 'Uddin', 8500, 'IT', '2020-01-10 09:05:00'),
+(2, 'Karim', 'Hasan', 12500, 'HR', '2020-03-15 10:10:00'),
+(3, 'Soniya', 'Hridhi', 9000, 'Admin', '2020-06-20 09:20:00'),
+(4, 'Asad', 'Islam', 15000, 'Finance', '2021-02-05 08:45:00'),
+(5, 'Fahim', 'Ahmed', 11000, 'Admin', '2021-05-18 09:35:00'),
+(6, 'Nusrat', 'Jahan', 16000, 'HR', '2021-08-22 10:00:00'),
+(7, 'Rafi', 'Mahmud', 10500, 'IT', '2022-01-12 09:15:00'),
+(8, 'Sadia', 'Akter', 9500, 'Admin', '2022-04-25 10:25:00'),
+(9, 'Imran', 'Khan', 14000, 'Finance', '2022-07-30 08:55:00'),
+(10, 'Arafat', 'Roy', 11500, 'HR', '2023-01-08 09:40:00');
+
+SELECT *FROM WORKER
+
+select ASCII('A')
+select char(97)
+select charindex('@','abcd@gmail')
+SELECT LEFT ('  ABCDE',2)
+SELECT RIGHT ('  ABCDE',2)
+SELECT LTRIM('  ABCDE',2)
+SELECT RTRIM('ABCDE  ',2)
+
+
+SELECT LOWER ('ABCD')
+SELECT UPPER ('abdhbd')
+
+SELECT LEN ('ABCD')
+SELECT REPLICATE('ABC',2)
+
+SELECT REPLACE ('ABC.COM','COM','NET')
+SELECT SUBSTRING ('ABCDE',1,3)
+
+SELECT TOP 5 FIRST_NAME + space(10) + LAST_NAME AS FULL_NAME FROM WORKER;
