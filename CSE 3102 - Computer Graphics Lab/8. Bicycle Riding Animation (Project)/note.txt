@@ -1,0 +1,27 @@
+Bicycle Riding Animation
+
+Course: CSE 3102 - Computer Graphics Lab
+
+This project was developed using C++, OpenGL, and GLUT.
+
+Implemented Concepts:
+
+* DDA Line Drawing Algorithm
+* Midpoint Circle Algorithm
+* Translation Transformation
+* Rotation Transformation
+
+Features:
+
+* Bicycle movement across the road
+* Rotating wheels
+* Rotating pedals
+* Animated road lane markings
+
+Files Included:
+
+* Source code files
+* CodeBlocks project files
+* Output screenshots
+
+Developed for academic and learning purposes.
