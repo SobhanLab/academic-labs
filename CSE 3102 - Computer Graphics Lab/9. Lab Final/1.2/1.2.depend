@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1780661831 source:c:\users\sobha\downloads\compressed\project\project\main.cpp
+1781067020 source:c:\users\sobha\documents\openglut\1.2\main.cpp
 	<bits/stdc++.h>
 	<GL/glut.h>
 
@@ -872,8 +872,4 @@
 
 1526093414 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\gl\glu.h
 	<GL/gl.h>
-
-1780661831 source:e:\@codes\academic_labs\cse 3102 - computer graphics lab\8. bicycle riding animation (project)\project\main.cpp
-	<bits/stdc++.h>
-	<GL/glut.h>
 

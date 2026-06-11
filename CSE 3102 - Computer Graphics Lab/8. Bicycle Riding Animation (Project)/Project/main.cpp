@@ -63,7 +63,6 @@ void midpointCircle(int xc,int yc,int r){
 
 void drawSpokes(int xc,int yc,int r,float angle){
     float rad = angle * PI / 180.0;
-
     int x = r * cos(rad);
     int y = r * sin(rad);
 
@@ -73,9 +72,7 @@ void drawSpokes(int xc,int yc,int r,float angle){
 
 void drawRoad(){
     glColor3f(1,1,1);
-
     dda(-700,-100,700,-100);
-
     for(int i=-700;i<700;i+=80){
         int start = i + (int)roadOffset;
         dda(start,-120,start+40,-120);
@@ -118,7 +115,6 @@ void drawBicycle(float tx){
     int pedalY = 0;
 
     midpointCircle(pedalX,pedalY,15);
-
     float rad = wheelAngle * PI / 180.0;
 
     int px = 20 * cos(rad);
@@ -160,10 +156,8 @@ void update(int value){
 
 void init(){
     glClearColor(0,0,0,1);
-
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
-
     gluOrtho2D(-700,700,-250,250);
 }
 
