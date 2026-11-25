@@ -1,11 +1,13 @@
 .model small
 .stack 100h
+.code
+
 .data
 
 a db 'Enter the number: $'
 b db 10,13,'Result is: $'
 
-.code
+
 main proc
 
     mov ax, @data

@@ -1,12 +1,12 @@
 .model small
 .stack 100h
+.code
 
 .data
     a     db 'Enter the character y or Y: $'
-    msg_1 db '*VU_CSE* $'
-    msg_2 db 'The input character is not "y" or "Y".$'
+    msg_1 db 10,13, '*VU_CSE* $'
+    msg_2 db 10,13, 'The input character is not "y" or "Y". $'
 
-.code
 main proc
 
     mov ax, @data
@@ -19,12 +19,6 @@ main proc
     mov ah, 1
     int 21h
     mov bl, al
-
-    mov ah, 2
-    mov dl, 10
-    int 21h
-    mov dl, 13
-    int 21h
 
     cmp bl, 'y'
     je display
