@@ -8,7 +8,7 @@ collected under multiple activity conditions.
 **Affiliation:** Department of Computer Science and Engineering,
 Varendra University, Rajshahi, Bangladesh
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24373828.svg)](https://doi.org/10.5281/zenodo.24373828)
+<a href="https://doi.org/10.5281/zenodo.24373828" target="_blank" rel="noopener noreferrer"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.24373828.svg" alt="DOI"></a>
 
 ## Overview
 
@@ -53,10 +53,12 @@ realistic conditions.
 -   **Original dataset publication:** L. Howell and B. Porr, *High
     precision ECG database with annotated R peaks, recorded and filmed
     under realistic conditions* (2018).
--   **Dataset DOI:**
-    [10.5525/gla.researchdata.716](https://doi.org/10.5525/gla.researchdata.716)
--   **Dataset access:** Use the DOI above to access the dataset record
-    and its download/access instructions.
+-   **Dataset download (Zenodo):**
+    <a href="https://zenodo.org/records/10925903" target="_blank" rel="noopener noreferrer">Download ECG-GUDB dataset</a>
+-   **Original dataset DOI:**
+    <a href="https://doi.org/10.5525/gla.researchdata.716" target="_blank" rel="noopener noreferrer">10.5525/gla.researchdata.716</a>
+-   **Dataset access:** Use the Zenodo link above to access and download
+    the dataset. The original dataset DOI is retained for source attribution.
 
 The study used 123 annotated chest-strap ECG recordings from 25
 participants (S00--S24). The five activity conditions were **sitting,
@@ -221,8 +223,10 @@ repository release.
 
 1.  Clone or download this repository.
 
-2.  Obtain ECG-GUDB from its official dataset record:
-    https://doi.org/10.5525/gla.researchdata.716.
+2.  Download ECG-GUDB from Zenodo:
+    <a href="https://zenodo.org/records/10925903" target="_blank" rel="noopener noreferrer">Download ECG-GUDB dataset</a>.
+    The original dataset DOI is
+    <a href="https://doi.org/10.5525/gla.researchdata.716" target="_blank" rel="noopener noreferrer">10.5525/gla.researchdata.716</a>.
 
 3.  Place the dataset where the project configuration expects it, or
     update the relevant dataset paths.
@@ -254,10 +258,10 @@ not changed.
 **Adaptive Slope-Based R-Peak Detection in Multi-Activity Chest-Strap
 ECG Signals**
 
--   **Zenodo archive:** https://zenodo.org/records/24373828
--   **DOI:** https://doi.org/10.5281/zenodo.24373828
+-   **Zenodo archive:** <a href="https://zenodo.org/records/24373828" target="_blank" rel="noopener noreferrer">https://zenodo.org/records/24373828</a>
+-   **DOI:** <a href="https://doi.org/10.5281/zenodo.24373828" target="_blank" rel="noopener noreferrer">https://doi.org/10.5281/zenodo.24373828</a>
 -   **ResearchGate:**
-    https://www.researchgate.net/publication/418163500_Adaptive_Slope-Based_R-Peak_Detection_in_Multi-Activity_Chest-Strap_ECG_Signals
+    <a href="https://www.researchgate.net/publication/418163500_Adaptive_Slope-Based_R-Peak_Detection_in_Multi-Activity_Chest-Strap_ECG_Signals" target="_blank" rel="noopener noreferrer">https://www.researchgate.net/publication/418163500_Adaptive_Slope-Based_R-Peak_Detection_in_Multi-Activity_Chest-Strap_ECG_Signals</a>
 
 The manuscript provides the full methodology, experimental protocol,
 results, discussion, limitations, and references.
@@ -266,7 +270,7 @@ results, discussion, limitations, and references.
 
 Sobhan, A. *Adaptive Slope-Based R-Peak Detection in Multi-Activity
 Chest-Strap ECG Signals*. Zenodo.
-https://doi.org/10.5281/zenodo.24373828
+<a href="https://doi.org/10.5281/zenodo.24373828" target="_blank" rel="noopener noreferrer">https://doi.org/10.5281/zenodo.24373828</a>
 
 ## Limitations
 
@@ -297,5 +301,5 @@ Varendra University, Rajshahi, Bangladesh
 ### Research Profiles
 
 -   **Google Scholar:**
-    https://scholar.google.com/citations?hl=en&user=fZC_B7wAAAAJ
--   **ORCID:** https://orcid.org/0009-0009-5139-1172
+    <a href="https://scholar.google.com/citations?hl=en&user=fZC_B7wAAAAJ" target="_blank" rel="noopener noreferrer">https://scholar.google.com/citations?hl=en&user=fZC_B7wAAAAJ</a>
+-   **ORCID:** <a href="https://orcid.org/0009-0009-5139-1172" target="_blank" rel="noopener noreferrer">https://orcid.org/0009-0009-5139-1172</a>
